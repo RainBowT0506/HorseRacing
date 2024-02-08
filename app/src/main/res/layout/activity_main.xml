@@ -115,6 +115,19 @@
 
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/text_view_host_message"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:padding="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_start_race"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout_horses" />
+
     <Button
         android:id="@+id/button_start_race"
         android:layout_width="wrap_content"
